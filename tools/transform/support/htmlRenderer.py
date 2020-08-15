@@ -68,8 +68,8 @@ class Renderer(abstractRenderer.AbstractRenderer):
     def generateIndexFile(self):
         with open(os.path.dirname(os.path.realpath(__file__)) + '/htmlsupport/index.html') as f:
             c = f.read()
-        c = c.replace('{{{ot}}}', self.bookList(1, 39))
-        c = c.replace('{{{nt}}}', self.bookList(40, 67))
+        c = c.replace('{{{ot}}}', self.bookList(1, 54))
+        c = c.replace('{{{nt}}}', self.bookList(55, 81))
         c = c.replace(r'{{{translationname}}}',self.config.get('General','name'))
         c = c.replace(r'{{{pathtologo}}}',self.config.get('HTML','frontlogo').split('/')[-1])  # copy logo into place
         with open(self.outputDir + '/index.html', 'w') as f:
