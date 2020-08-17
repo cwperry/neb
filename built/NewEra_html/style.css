@@ -15,7 +15,7 @@
         }
         body > * {
             font-size: 100%;
-            line-height: 135%;
+            line-height: 200%;
             text-rendering: optimizeLegibility;
             margin-left: 7rem;
             margin-right: 7rem;
@@ -25,8 +25,8 @@
             text-decoration: none; 
         }
         .chapter{
-        	float: left;
-            width: 0.7em;
+            float: left;
+            padding-right: .2em;
             font-size: 300%;
             line-height: 80%;
             color:black;
