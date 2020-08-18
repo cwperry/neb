@@ -243,6 +243,10 @@ class Renderer(abstractRenderer.AbstractRenderer):
     
     def render_f_s(self, token):      self.write('<span class="rightnotemarker">*</span><span class="rightnote">')
     def render_f_e(self, token):      self.write('</span>')
+
+    def render_x_s(self, token):      self.write('<span class="xrefmarker">*</span><span class="xref">')
+    def render_x_e(self, token):      self.write('</span>')
+    
     
 
 #

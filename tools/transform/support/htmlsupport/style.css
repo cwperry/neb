@@ -47,6 +47,17 @@
         	color: gray;
         	font-size: 80%;
         }
+        .xrefmarker{
+            color: gray   
+        }
+        .xref{
+        	position: absolute;
+        	right: 0;
+        	width: 6rem;
+        	text-align: left;	
+        	color: gray;
+        	font-size: 80%;
+        }
         h1{
             font-family: "Georgia", serif;
             text-transform: uppercase;
