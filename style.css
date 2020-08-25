@@ -9,7 +9,7 @@
             margin-left:auto;
             margin-right:auto;
             width:100%;
-            max-width:1500px;
+            max-width:850px;
             min-height: 100%;
             position: relative;
         }
@@ -40,6 +40,17 @@
             color: gray;
         }
         .rightnote{
+        	position: absolute;
+        	right: 0;
+        	width: 6rem;
+        	text-align: left;	
+        	color: gray;
+        	font-size: 80%;
+        }
+        .xrefmarker{
+            color: gray   
+        }
+        .xref{
         	position: absolute;
         	right: 0;
         	width: 6rem;
